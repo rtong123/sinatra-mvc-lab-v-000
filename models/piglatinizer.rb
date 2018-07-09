@@ -39,7 +39,7 @@ class PigLatinizer
 end
 
 def piglatinize_sentence(text)
-  array = text.split('')
+  array = text.split(' ')
 
 
 end
