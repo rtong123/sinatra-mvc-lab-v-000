@@ -38,7 +38,8 @@ class PigLatinizer
     end
 end
 
-def piglatinize_sentence
+def piglatinize_sentence(text)
+
 
 end
 
