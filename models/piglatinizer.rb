@@ -21,13 +21,13 @@ class PigLatinizer
     new_array = array.map do |text|
       binding.pry
     if vowel(text[0]) == true
-      return text + 'way'
+      text = text + 'way'
     elsif
       vowel(text[0]) == false && vowel(text[1]) == false && vowel(text[2]) == false
       first = text.slice!(0)
       second = text.slice!(0)
       third = text.slice!(0)
-      return text + first + second + third + "ay"
+      text = text + first + second + third + "ay"
     elsif
       vowel(text[0]) == false && vowel(text[1]) == false
       # binding.pry
