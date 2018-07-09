@@ -22,7 +22,7 @@ end
    else
      first = text.slice!(0)
      second = text.slice!(1)
-     text =
+    #  text =
      binding.pry
   end
 end
