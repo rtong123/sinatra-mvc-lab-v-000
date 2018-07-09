@@ -20,7 +20,7 @@ class PigLatinizer
     # array = text.split
     if vowel(text[0]) == true
       return "#{text}" + 'way'
-    elsif chrome romechay
+    elsif
       vowel(text[0]) == false && vowel(text[1]) == false
       first = text.slice!(0)
       second = text.slice!(1)
