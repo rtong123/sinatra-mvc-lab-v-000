@@ -1,38 +1,40 @@
 
 class PigLatinizer
-
-attr_reader :text
-
+  
+  attr_reader :text
+  
   def initialize
     @text = text
     # binding.pry
   end
-
+  
   def vowel(x)
     if x == "a" || x == "e" || x == "i" || x == "o" || x == "u" || x == "A" || x == "E" || x == 'O' || x == 'I' || x == "U"
       return true
     else
       return false
+    end
   end
-end
-
+  
   def piglatinize_one_word(text)
     # array = text.split
     if vowel(text[0]) == true
-     return "#{text} + 'way'"
-   else
-     first = text.slice!(0)
-     return text + first + "ay"
-
-     second = text.slice!(1)
-     text =
-     binding.pry
+      return "#{text} + 'way'"
+    else
+      first = text.slice!(0)
+      return text + first + "ay"
+    else
+      
+      second = text.slice!(1)
+      text =
+      binding.pry
+    end
   end
 end
 
-  def piglatinize_sentence
-
-  end
+def piglatinize_sentence
+  
+end
 
 
 end
