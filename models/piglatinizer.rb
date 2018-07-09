@@ -16,7 +16,7 @@ class PigLatinizer
     end
   end
 
-  def piglatinize(word)
+  def piglatinize(sentence)
     array = word.split(' ')
     new_array = array.map do |text|
 
