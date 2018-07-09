@@ -16,7 +16,7 @@ class PigLatinizer
     end
   end
 
-  def piglatinize_one_word(text)
+  def piglatinize(text)
     # array = text.split
     if vowel(text[0]) == true
       return "#{text}" + 'way'
