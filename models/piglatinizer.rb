@@ -31,7 +31,6 @@ class PigLatinizer
       first = text.slice!(0)
       second = text.slice!(0)
       third = text.slice!(0)
-      binding.pry
       return text + first + second + third + "ay"
     else
       first = text.slice!(0)
