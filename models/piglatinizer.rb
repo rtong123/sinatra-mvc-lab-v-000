@@ -17,7 +17,7 @@ end
 
   def piglatinize_one_word(text)
     binding.pry
-    array = []
+    array = text.split
      return "#{text} + 'ay'"
    else
      return text[0].strip
