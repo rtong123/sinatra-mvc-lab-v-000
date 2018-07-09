@@ -24,6 +24,7 @@ end
      first = text.slice!(0)
     #  second = word.slice!(1)
      text = first + text
+     binding.pry
   end
 end
 
