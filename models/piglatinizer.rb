@@ -21,7 +21,7 @@ class PigLatinizer
     if vowel(text[0]) == true
       return "#{text}" + 'way'
     elsif
-      vowel(text[0]) && vowel(text[1]) == false
+      vowel(text[0]) == false && vowel(text[1]) == false
       return text.slice(0) + text.slice!(0) + text.slice!(1) + "ay"
     else
       return text.slice(0)+ text.slice!(0) + "ay"
