@@ -2,10 +2,6 @@ class PigLatinizer
 
   attr_reader :text
 
-  def initialize(text)
-    @text = text
-    # binding.pry
-  end
 
   def vowel(x)
     if x == "a" || x == "e" || x == "i" || x == "o" || x == "u" || x == "A" || x == "E" || x == 'O' || x == 'I' || x == "U"
