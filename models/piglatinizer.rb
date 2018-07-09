@@ -1,6 +1,5 @@
 class PigLatinizer
 
-  attr_reader :text
 
 
   def vowel(x)
