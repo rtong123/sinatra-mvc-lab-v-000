@@ -19,7 +19,7 @@ class PigLatinizer
   def piglatinize(text)
     # array = text.split
     if vowel(text[0]) == true
-      return "#{text}" + 'way'
+      return text + 'way'
     elsif
       vowel(text[0]) == false && vowel(text[1]) == false
       first = text.slice!(0)
