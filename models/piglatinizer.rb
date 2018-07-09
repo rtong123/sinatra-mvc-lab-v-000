@@ -24,7 +24,7 @@ class PigLatinizer
       vowel(text[0]) == false && vowel(text[1]) == false
       first = text.slice!(0)
       second = text.slice!(1)
-      return text.slice(0) + text.slice!(0) + text.slice!(1) + "ay"
+      return text + first + second + "ay"
     else
       return text.slice(0)+ text.slice!(0) + "ay"
     end
