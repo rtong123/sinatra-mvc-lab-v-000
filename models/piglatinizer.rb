@@ -40,6 +40,7 @@ end
 
 def piglatinize_sentence(text)
   array = text.split(' ')
+  array.
 
 
 end
