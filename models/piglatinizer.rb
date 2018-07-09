@@ -22,7 +22,7 @@ end
      return "#{text} + 'way'"
    else
      first = text.slice!(0)
-    #  second = word.slice!(1)
+     second = word.slice!(1)
      text = first + text
      binding.pry
   end
