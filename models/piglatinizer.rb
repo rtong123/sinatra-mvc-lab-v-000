@@ -40,7 +40,9 @@ end
 
 def piglatinize_sentence(text)
   array = text.split(' ')
-  array.
+  array.map do |word|
+    
+  end
 
 
 end
