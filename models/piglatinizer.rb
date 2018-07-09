@@ -18,7 +18,7 @@ end
   def piglatinize_one_word(text)
     binding.pry
     # array = text.split
-    if vowel(array[0]) == true
+    if vowel(text[0]) == true
      return "#{text} + 'way'"
    else
      array[]
