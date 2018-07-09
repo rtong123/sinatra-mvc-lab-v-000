@@ -1,7 +1,5 @@
 class PigLatinizer
 
-
-
   def vowel(x)
     if x == "a" || x == "e" || x == "i" || x == "o" || x == "u" || x == "A" || x == "E" || x == 'O' || x == 'I' || x == "U"
       return true
