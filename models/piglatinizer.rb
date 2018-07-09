@@ -22,14 +22,15 @@ end
      return "#{text} + 'way'"
    else
      first = text.slice!(0)
-     second = word.slice!(1)
+     second = text.slice!(1)
      text = first + text
      binding.pry
   end
 end
 
-  # def piglatinize_sentence
-  # end
+  def piglatinize_sentence
+
+  end
 
 
 end
