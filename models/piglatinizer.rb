@@ -36,7 +36,7 @@ class PigLatinizer
       text = text + first + second + "ay"
     else
       first = text.slice!(0)
-      return text + first + "ay"
+      text = text + first + "ay"
     end
   end
   new_array.join(' ')
