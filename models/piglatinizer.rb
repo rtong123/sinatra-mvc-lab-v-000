@@ -39,6 +39,7 @@ class PigLatinizer
       return text + first + "ay"
     end
   end
+  new_array.join(' ')
 end
 
 def piglatinize_sentence(text)
