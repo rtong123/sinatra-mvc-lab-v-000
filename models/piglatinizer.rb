@@ -16,9 +16,10 @@ class PigLatinizer
     end
   end
 
-  def piglatinize(text)
+  def piglatinize(word)
     array = text.split(' ')
-    
+    new_array = array.map do |text|
+
     if vowel(text[0]) == true
       return text + 'way'
     elsif
