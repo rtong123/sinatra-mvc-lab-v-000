@@ -28,7 +28,7 @@ class PigLatinizer
       second = text.slice!(0)
       third = text.slice!(0)
       text = text + first + second + third + "ay"
-    elsif
+    elsifs
       vowel(text[0]) == false && vowel(text[1]) == false
       # binding.pry
       first = text.slice!(0)
