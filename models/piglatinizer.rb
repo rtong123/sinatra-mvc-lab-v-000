@@ -26,7 +26,7 @@ class PigLatinizer
     else
       firstletter = text.slice!(0)
       second = text.slice!(1)
-      return 
+      return
       binding.pry
     end
   end
