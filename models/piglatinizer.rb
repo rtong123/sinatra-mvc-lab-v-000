@@ -42,14 +42,10 @@ class PigLatinizer
   new_array.join(' ')
 end
 
-def piglatinize_sentence(text)
-  array = text.split(' ')
-  array.map do |word|
-    word
-  end
 
 
-end
+
+
 
 
 end
