@@ -7,6 +7,14 @@ attr_reader :text
     # binding.pry
   end
 
+  def vowel(x)
+    if x == "a" || x == "e" || x == "i" || x == "o" || x == "u" || x == "A" || x == "E" || x == 'O' || x == 'I' || x == "U"
+      return true
+    else
+      return false
+  end
+end
+
   def piglatinize_one_word
     binding.pry
    if text.first == a || e || i || o || u || A || E || I || O || U
