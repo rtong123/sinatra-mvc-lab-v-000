@@ -22,7 +22,7 @@ end
      return "#{text} + 'way'"
    else
      first = text.slice!(0)
-     return text += first
+     return text + first + "ay"
 
      second = text.slice!(1)
      text =
