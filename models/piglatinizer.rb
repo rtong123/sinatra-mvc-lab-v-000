@@ -17,7 +17,7 @@ class PigLatinizer
   end
 
   def piglatinize(word)
-    array = text.split(' ')
+    array = word.split(' ')
     new_array = array.map do |text|
 
     if vowel(text[0]) == true
