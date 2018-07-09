@@ -21,7 +21,9 @@ end
     if vowel(text[0]) == true
      return "#{text} + 'way'"
    else
-     array[]
+     first = word.slice!(0)
+    #  second = word.slice!(1)
+     
   end
 end
 
