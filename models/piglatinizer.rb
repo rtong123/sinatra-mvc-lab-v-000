@@ -26,6 +26,7 @@ class PigLatinizer
       second = text.slice!(1)
       return text + first + second + "ay"
     else
+      first = text.slice!(0)
       return text.slice(0)+ text.slice!(0) + "ay"
     end
 end
