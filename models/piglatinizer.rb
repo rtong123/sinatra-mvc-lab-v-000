@@ -8,9 +8,9 @@ attr_reader :text
   end
 
   def piglatinize_one_word
+    binding.pry
    if text.first == a || e || i || o || u || A || E || I || O || U
      return "#{text} + 'ay'"
-     binding.pry
    else
      return text[0].strip
   end
