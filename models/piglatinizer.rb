@@ -16,14 +16,13 @@ attr_reader :text
 end
 
   def piglatinize_one_word(text)
-    binding.pry
     # array = text.split
     if vowel(text[0]) == true
      return "#{text} + 'way'"
    else
      first = text.slice!(0)
      second = text.slice!(1)
-     text = first + text
+     text =
      binding.pry
   end
 end
