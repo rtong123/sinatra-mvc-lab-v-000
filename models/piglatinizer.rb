@@ -22,9 +22,9 @@ class PigLatinizer
       return "#{text}" + 'way'
     elsif
       vowel(text[0]) && vowel(text[1]) == false
-      return text.slice[0] + text.slice!(0) + text.slice!(1) + "ay"
+      return text.slice(0) + text.slice!(0) + text.slice!(1) + "ay"
     else
-      return text.slice[0]+ text.slice!(0) + "ay"
+      return text.slice(0)+ text.slice!(0) + "ay"
     end
 end
 
