@@ -12,11 +12,12 @@ attr_reader :text
      return "#{text} + 'ay'"
      binding.pry
    else
-     return text[0].strip 
+     return text[0].strip
   end
+end
 
-  def piglatinize_sentence
-  end
+  # def piglatinize_sentence
+  # end
 
 
 end
