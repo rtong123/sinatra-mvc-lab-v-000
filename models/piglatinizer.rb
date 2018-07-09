@@ -38,6 +38,7 @@ class PigLatinizer
       first = text.slice!(0)
       return text + first + "ay"
     end
+  end
 end
 
 def piglatinize_sentence(text)
