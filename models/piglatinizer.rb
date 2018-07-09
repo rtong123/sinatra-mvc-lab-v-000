@@ -26,8 +26,6 @@ class PigLatinizer
     else
       return text.slice[0]+ text.slice!(0) + "ay"
     end
-  end
-end
 end
 
 def piglatinize_sentence
