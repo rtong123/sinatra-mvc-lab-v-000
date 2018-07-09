@@ -9,7 +9,7 @@ class App < Sinatra::Base
 
    post '/piglatinize' do
      binding.pry
-     @analyzed_text = PigLatinizer.new
+     analyzed_text = PigLatinizer.new
      erb :results
    end
 
