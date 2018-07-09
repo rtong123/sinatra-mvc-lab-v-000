@@ -10,6 +10,7 @@ class App < Sinatra::Base
    post '/piglatinize' do
      binding.pry
      piglatinobject = PigLatinizer.new
+     @analyzed_text = piglatinobject.piglatinizer
      erb :results
    end
 
