@@ -22,6 +22,7 @@ class PigLatinizer
       return text + 'way'
     elsif
       vowel(text[0]) == false && vowel(text[1]) == false
+      binding.pry
       first = text.slice!(0)
       second = text.slice!(1)
       return text + first + second + "ay"
