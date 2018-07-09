@@ -15,9 +15,9 @@ attr_reader :text
   end
 end
 
-  def piglatinize_one_word
+  def piglatinize_one_word(text)
     binding.pry
-   if text.first == a || e || i || o || u || A || E || I || O || U
+    array = []
      return "#{text} + 'ay'"
    else
      return text[0].strip
