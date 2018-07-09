@@ -17,10 +17,11 @@ end
 
   def piglatinize_one_word(text)
     binding.pry
-    array = text.split
-     return "#{text} + 'ay'"
+    # array = text.split
+    if vowel(array[0]) == true
+     return "#{text} + 'way'"
    else
-     return text[0].strip
+     array[]
   end
 end
 
