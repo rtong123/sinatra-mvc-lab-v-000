@@ -23,7 +23,7 @@ end
    else
      first = text.slice!(0)
     #  second = word.slice!(1)
-     
+     text = first + text
   end
 end
 
